@@ -64,5 +64,4 @@ func main() {
 	
 	//Eksekusi fungsi download
 	Download(urlnew)
-
 }
