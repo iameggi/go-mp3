@@ -1,2 +1,7 @@
 # go-mp3
-youtube to mp3 using GO
+Simpel converter youtube to mp3
+
+
+## Install lib
+`go get -v all`
+
