@@ -40,8 +40,8 @@ func Download(url string) {
 
 	//konversi ke mp3
 	hasilDownload := strings.ReplaceAll(video.Title+".mp3", "/", "|")
-	fmt.Println("Judul :", hasilDownload)
-	fmt.Println("File :", video.Title+ " Sedang di download, harap tunggu")
+	fmt.Println("Judul :", video.Title)
+	fmt.Println("File :", hasilDownload+ " Sedang di download, harap tunggu")
 	file, err := os.Create(hasilDownload)
 	
 	if err != nil {
